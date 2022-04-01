@@ -10,7 +10,6 @@ function App() {
       <NavBar />
       <main className="mt-5">
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/profile/:id" element={<Profile />} />
         </Routes>
